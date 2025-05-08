@@ -9,3 +9,5 @@ Now you can download the model, this app is made to run on Llama3 so in the term
 
 If you want to switch the model type "ollama pull {model name}"
 In main.py change the model name in: "model = OllamaLLM(model="{your new model name}", temperature=2, top_p=5)" 
+
+Important note in case you encounter into a [WinError 10061] it means that Ollama wasn't running on your system. Just close the app, start Ollama and reopen the App again. 
